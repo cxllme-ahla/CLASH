@@ -28,24 +28,8 @@ proxies:
       headers:
         Host: sg3-trojan.bonds.id
     udp: true
-  - name: HTTP Injector
-    server: sogood.linefriends.com
-    port: 80
-    type: vmess
-    uuid: f9e114d0-b5d5-46a7-91cb-310367cadfd8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-gcloud4.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-gcloud4.estebuh.my.id
-    udp: true
   - name: opentunnel.net-yataay
-    server: sogood.linefriends.com
+    server: www.skillacademy.com
     port: 443
     type: vmess
     uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
@@ -60,7 +44,7 @@ proxies:
         Host: sgv-6.openv2ray.com
     udp: true
   - name: sg2-v2ray.sshkit.org
-    server: sogood.linefriends.com
+    server: www.skillacademy.com
     port: 443
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -76,7 +60,7 @@ proxies:
         Host: sg2-v2ray.sshkit.org
     udp: true
   - name: sg1-v2ray.sshkit.org 6
-    server: sogood.linefriends.com
+    server: www.skillacademy.com
     port: 443
     type: vmess
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -91,4 +75,19 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     udp: true
-  
+  - name: yamadachan_hidessh
+    server: www.skillacademy.com
+    port: 80
+    type: vmess
+    uuid: f121d366-c16a-4464-9bbc-c0749bf5d845
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-melbi1.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-melbi1.estebuh.my.id
+    udp: true
