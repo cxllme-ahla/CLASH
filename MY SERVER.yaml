@@ -59,7 +59,6 @@ proxies:
       headers:
         Host: sgv-6.openv2ray.com
     udp: true
-
  - name: sg2-v2ray.sshkit.org
     server: sogood.linefriends.com
     port: 443
@@ -76,7 +75,7 @@ proxies:
       headers:
         Host: sg2-v2ray.sshkit.org
     udp: true
-  - name: sg1-v2ray.sshkit.org
+  - name: sg1-v2ray.sshkit.org 6
     server: sogood.linefriends.com
     port: 443
     type: vmess
