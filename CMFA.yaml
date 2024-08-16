@@ -1,7 +1,6 @@
 proxy-providers:
   SERVER:
-    type: http
-    url: #####
+    type: file
     behavior: domain
     path: "./SERVER.yaml"
     health-check:
@@ -55,14 +54,15 @@ dns:
   nameserver:
     - 1.1.1.1
     - 8.8.8.8
+    - 94.140.15.15
   fallback:
     - 1.0.0.1
     - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
-    - 112.215.203.254
+    - 94.140.15.15
   default-nameserver:
     - 1.1.1.1
     - 8.8.8.8
-    - 112.215.203.254
+    - 94.140.15.15
 rules:
 - MATCH,GLOBAL
